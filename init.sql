@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS "Recipients" (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR NOT NULL UNIQUE,
+    password VARCHAR NOT NULL
+);

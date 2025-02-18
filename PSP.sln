@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSP", "PSP\PSP.csproj", "{05EF24D7-7CCF-401F-84B1-20D36C826F92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C26EF07-A519-4AF2-8F37-9BCC8419E3F7}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSP.Tests", "PSP.Tests\PSP.Tests.csproj", "{16585596-2BEE-46AD-B8E6-AF1C509C9BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3D95058-3850-4BCB-B147-3ECAFFC654FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{596EB276-C93D-42EE-8416-EEC61C373186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05EF24D7-7CCF-401F-84B1-20D36C826F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EF24D7-7CCF-401F-84B1-20D36C826F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EF24D7-7CCF-401F-84B1-20D36C826F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EF24D7-7CCF-401F-84B1-20D36C826F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16585596-2BEE-46AD-B8E6-AF1C509C9BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16585596-2BEE-46AD-B8E6-AF1C509C9BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16585596-2BEE-46AD-B8E6-AF1C509C9BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16585596-2BEE-46AD-B8E6-AF1C509C9BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05EF24D7-7CCF-401F-84B1-20D36C826F92} = {A3D95058-3850-4BCB-B147-3ECAFFC654FD}
+		{16585596-2BEE-46AD-B8E6-AF1C509C9BD7} = {596EB276-C93D-42EE-8416-EEC61C373186}
+	EndGlobalSection
+EndGlobal
